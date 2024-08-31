@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import {Autoplay, Navigation} from 'swiper';
-import {getListPage} from "../lib/contentParser";
+import {getListPage} from "@lib/contentParser";
 import {FaInstagram, FaBehance, FaTiktok} from "react-icons/fa";
 
 const Home = ({frontmatter}) => {
@@ -18,7 +18,7 @@ const Home = ({frontmatter}) => {
   return (
     <Base title={title}>
       {/* Banner */}
-      <section id="top" className="section pb-[50px]">
+      <section id="top" className="section pb-[10px]">
         <div className="container">
           <div className="row flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/3 hidden lg:block">
@@ -39,15 +39,13 @@ const Home = ({frontmatter}) => {
           </div>
         </div>
       </section>
-
-
       {/* Features */}
       <section id="services" className="section">
         <div className="container">
           <div className="text-center">
             <h2 className="text-2xl sm:text-4xl">{markdownify(feature.name)}</h2>
           </div>
-          <div className="mt-8 space-y-6">
+          <div className="mt-2 space-y-6">
             {feature.features.map((item, i) => (
               <div
                 key={`feature-${i}`}
@@ -55,7 +53,7 @@ const Home = ({frontmatter}) => {
               >
                 <div className="w-1/5 flex justify-center items-center relative z-20">
                   <h5
-                    className={`font-secondary font-bold text-xl text-[50px] relative ${i % 2 !== 0 ? 'sm:-left-12' : 'sm:-right-12'}`}>{item.name}</h5>
+                    className={`font-secondary font-bold text-2xl text-[50px] relative ${i % 2 !== 0 ? 'sm:-left-12' : 'sm:-right-12'}`}>{item.name}</h5>
                 </div>
                 <div
                   className="w-4/5 p-5 border-2 border-black rounded-xl bg-transparent flex flex-col items-center relative"
@@ -79,7 +77,6 @@ const Home = ({frontmatter}) => {
           </div>
         </div>
       </section>
-
       {/* services */}
       <section className="section">
         <div className="container">
@@ -119,7 +116,6 @@ const Home = ({frontmatter}) => {
           </div>
         </div>
       </section>
-
       {/* Contact */}
       <section id="contact" className="section py-16">
         <div className="container mx-auto">
@@ -273,8 +269,6 @@ const Home = ({frontmatter}) => {
           </Swiper>
         </div>
       </section>
-
-
     </Base>
   );
 };
