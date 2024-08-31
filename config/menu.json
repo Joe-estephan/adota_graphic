@@ -1,73 +1,22 @@
 {
-  "main": [
+  "main1": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "ABOUT",
+      "url": "#top"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
-    },
-    {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "SERVICES",
+      "url": "#services"
     }
-  ],
-  "footer": [
+    ],
+    "main2": [
     {
-      "name": "Company",
-      "menu": [
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
+      "name": "CONTACT",
+      "url": "#contact"
     },
     {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
-      ]
-    },
-    {
-      "name": "Support",
-      "menu": [
-        {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
-        }
-      ]
+      "name": "OUR WORK",
+      "url": "#our-work"
     }
   ]
 }

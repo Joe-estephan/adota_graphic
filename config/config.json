@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "A.a Graphic",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "48",
+    "logo_width": "300",
+    "logo_height": "150",
     "logo_text": "Bigspring Light"
   },
 
@@ -13,12 +13,6 @@
     "pagination": 4,
     "summary_length": 200,
     "blog_folder": "blogs"
-  },
-
-  "nav_button": {
-    "enable": true,
-    "label": "Get Started",
-    "link": "/contact"
   },
 
   "params": {

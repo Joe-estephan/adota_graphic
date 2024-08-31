@@ -14,6 +14,9 @@ const Logo = ({ src }) => {
       style={{
         height: logo_height.replace("px", "") + "px",
         width: logo_width.replace("px", "") + "px",
+        display: 'flex', // Enable Flexbox
+        alignItems: 'center', // Center vertically
+        justifyContent: 'center', // Center horizontally
       }}
     >
       {src || logo ? (

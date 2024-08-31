@@ -1,10 +1,15 @@
+
 .header {
-  @apply bg-white py-[14px] px-4 md:px-0 md:py-[9px];
+    @apply bg-cover bg-center bg-no-repeat min-h-[35vh] md:min-h-[50vh] lg:min-h-[100vh];
+    background-image: url('/images/header_bg.png');
 }
+
+
 
 // navbar items
 .navbar {
-  @apply relative flex flex-wrap items-center justify-between;
+  @apply relative flex flex-wrap items-center justify-between md:justify-center;
+  align-items: center;
 }
 
 .navbar-brand {
@@ -17,6 +22,7 @@
 
 .navbar-nav {
   @apply text-center md:text-left;
+  @apply flex items-center;
 }
 
 #nav-menu {
@@ -24,7 +30,6 @@
 }
 
 .nav-item {
-  @apply lg:mx-3;
 
   select:focus {
     box-shadow: none;
@@ -32,9 +37,22 @@
 }
 
 .nav-link {
-  @apply py-3 px-2 font-primary text-base font-bold text-dark transition hover:text-primary md:py-4 lg:px-3;
+  @apply py-2 px-3 font-semibold text-base text-dark text-lg transition hover:text-primary md:py-2 lg:px-4 tracking-widest lg:mx-5;
+
+  &:hover {
+    @apply text-black bg-primary rounded-full bg-opacity-50;
+  }
 
   &-active {
-    @apply text-primary;
+    @apply bg-primary rounded-full bg-opacity-50;
   }
+}
+
+.mobile-logo {
+  @apply block md:hidden;
+}
+
+.desktop-logo {
+  @apply hidden md:block;
+  align-self: center;
 }

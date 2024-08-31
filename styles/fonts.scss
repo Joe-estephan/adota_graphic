@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("/fonts/Avenir Next.ttc") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Average';
+  src: url('/fonts/Average.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+.primary-font {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+.secondary-font {
+  font-family: 'Average', sans-serif;
+}
