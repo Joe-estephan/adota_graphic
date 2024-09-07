@@ -243,7 +243,7 @@ const Home = ({frontmatter}) => {
         <div className="container mx-auto">
           <Swiper
             spaceBetween={0}
-            slidesPerView={5}
+            slidesPerView={4}
             loop={true}
             speed={3000}
             autoplay={{
@@ -256,11 +256,22 @@ const Home = ({frontmatter}) => {
             onSwiper={(swiper) => {
               swiper.$wrapperEl[0].style.transitionTimingFunction = "linear";
             }}
+            breakpoints={{
+              320: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 4,
+              },
+            }}
           >
             {feature.carousel.concat(feature.carousel).map((item, i) => (
               <SwiperSlide key={`feature-${i}`}>
                 <div className="text-center border-t-2 border-b-2 border-t-black border-b-black py-3">
-                  <h3 className="text-lg font-normal inline-block italic tracking-widest">
+                  <h3 className="text-sm md:text-xl lg:text-xl font-normal inline-block italic tracking-widest">
                     {item.title.toUpperCase()}
                   </h3>
                 </div>
