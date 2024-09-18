@@ -168,7 +168,7 @@ const Home = ({frontmatter}) => {
 
             {/* Right Side: Contact Form */}
             <div className="lg:w-2/3 w-full border-l-2 lg:border-black border-transparent lg:pl-28 lg:ml-20 ">
-              <form action="https://formsubmit.co/joe.p.estephan@gmail.com" method="POST" className="space-y-6">
+              <form action="https://formsubmit.co/info@adotagraphic.com" method="POST" className="space-y-6">
                 <div>
                   <input
                     className="w-full border-2 border-black p-4 mt-2 bg-transparent rounded-lg placeholder-black italic"
