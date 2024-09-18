@@ -34,7 +34,7 @@ const Home = ({frontmatter}) => {
             <div className="lg:w-2/3">
               <h1 className="font-secondary font-bold text-[38pt]">{banner.title}</h1>
               <h3 className="font-secondary font-bold text-[25pt]">{banner.subtitle}</h3>
-              <p className="font-primary mt-4 text-[15pt]">{markdownify(banner.content)}</p>
+              <p className="font-primary font-lighter mt-4 text-[15pt]">{markdownify(banner.content)}</p>
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@ const Home = ({frontmatter}) => {
 
             {/* Right Side: Contact Form */}
             <div className="lg:w-2/3 w-full border-l-2 lg:border-black border-transparent lg:pl-28 lg:ml-20 ">
-              <form action="https://formsubmit.co/008bf39b4cffc132aede6daac122347e" method="POST" className="space-y-6">
+              <form action="https://formsubmit.co/joe.p.estephan@gmail.com" method="POST" className="space-y-6">
                 <div>
                   <input
                     className="w-full border-2 border-black p-4 mt-2 bg-transparent rounded-lg placeholder-black italic"
