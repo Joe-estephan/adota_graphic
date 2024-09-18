@@ -15,7 +15,7 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Avenir Next:wght",
+      "primary": "Avenir Next:wght@300;400;700",
       "secondary": "Average",
       "primary_type": "sans-serif",
       "secondary_type": "sans-serif"
