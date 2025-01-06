@@ -131,10 +131,10 @@ const Home = ({frontmatter}) => {
                 <h3 className="font-bold text-lg">EMAIL</h3>
                 <p className="text-lg">INFO@ADOTAGRAPHIC.COM</p>
               </div>
-              <div className="mb-6">
-                <h3 className="font-bold text-lg">PHONE</h3>
-                <p className="text-lg">+961 76 388 160</p>
-              </div>
+              {/*<div className="mb-6">*/}
+              {/*  <h3 className="font-bold text-lg">PHONE</h3>*/}
+              {/*  <p className="text-lg">+961 76 388 160</p>*/}
+              {/*</div>*/}
               <div className="mb-6">
                 <h3 className="font-bold text-lg">ADDRESS</h3>
                 <p className="text-lg">LEBANON, BEIRUT</p>
